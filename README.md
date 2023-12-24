@@ -16,7 +16,7 @@ The Expense class represents an individual expense and has the following attribu
 ==> __init__(self, title, amount): Initializes a new expense with the provided title and amount, generating 
     a unique ID and setting the creation and update timestamps.
 
-==> update(self, title=None, amount=None): Updates the expense's title and/or amount if new values are 
+==> update(self, title=None, amount=None): Updates the expense's title and amount if new values are 
     provided, and updates the updated_at timestamp.
 
 ==> to_dict(self): Converts the expense object to a dictionary for easy serialization. The dictionary includes the 
